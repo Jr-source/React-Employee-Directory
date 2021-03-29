@@ -1,6 +1,7 @@
 {
-  "homepage": "https://github.com/Jr-source/React-Employee-Directory",
+
   "name": "employeedirectory",
+  "homepage": "https://github.com/Jr-source/React-Employee-Directory",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
