@@ -1,13 +1,9 @@
 import React from 'react';
-import Header from './components/Header';
-import Users from './components/Users';
-import 'bootstrap/dist/css/bootstrap.css';
+import ReactDOM from 'react-dom';
+import App from './App';
+import "bootstrap/dist/css/bootstrap.css";
 
-function App() {
-    return <>
-    <Header/>
-    <Users/>
-    </>
-  }
-
-export default App;
+ReactDOM.render(
+    <App />,
+  document.getElementById('root')
+);
